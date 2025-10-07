@@ -283,7 +283,7 @@ We welcome contributions! Here's how to get started:
 ##  Connect With Me
 
 - **🔗 LinkedIn**: [https://www.linkedin.com/in/shekhar-chaugule/]
-- **📝 Medium** : [My technical articles on log analysis and AIOps] [https://medium.com/@shekharchaugule19]
+- **📝 Medium** : [My technical articles on log analysis and AIOps] [[https://medium.com/@shekharchaugule19](https://medium.com/@shekharchaugule19/building-an-intelligent-aiops-log-analysis-system-from-manual-rules-to-self-learning-ai-1f64e9fbc514)]
 - **📧 Email**: [shekhartc123@gmail.com]
 - **🐛 Issues**: Found a bug or have suggestions? Open an issue!
 
