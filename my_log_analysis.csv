@@ -1,0 +1,113 @@
+timestamp,level,message,level_score,msg_len,anomaly_score,status,explanation
+2024-01-15 09:15:23,INFO,Application started successfully,1,32,1,✅ Normal,Looks normal to me
+2024-01-15 09:15:24,INFO,Database connection established,1,31,1,✅ Normal,Looks normal to me
+2024-01-15 09:16:01,WARNING,High memory usage detected: 85%,2,31,-1,❌ Anomaly,"Suspicious patterns found: memory, usage, high, 85; Contains suspicious terms: memory; Contains performance metrics"
+2024-01-15 09:16:15,INFO,User login: user123 from 192.168.1.100,1,38,1,✅ Normal,Looks normal to me
+2024-01-15 09:17:30,ERROR,Failed to connect to external API: timeout after 30s,3,52,1,✅ Normal,Looks normal to me
+2024-01-15 09:17:31,ERROR,Retrying API connection attempt 1/3,3,35,1,✅ Normal,Looks normal to me
+2024-01-15 09:17:45,INFO,API connection restored,1,23,-1,❌ Anomaly,"Suspicious patterns found: connection, api, restored; Message length is unusual"
+2024-01-15 09:18:00,INFO,Processing batch job: 1000 records,1,34,1,✅ Normal,Looks normal to me
+2024-01-15 09:20:15,WARNING,Disk space low: 15% remaining on /var/log,2,41,1,✅ Normal,Looks normal to me
+2024-01-15 09:22:30,CRITICAL,Database connection lost - attempting reconnection,4,50,-1,❌ Anomaly,"Suspicious patterns found: connection, database, database connection, reconnection; High severity: CRITICAL"
+2024-01-15 09:22:35,ERROR,Database reconnection failed: connection refused,3,48,1,✅ Normal,Looks normal to me
+2024-01-15 09:22:40,INFO,Database connection restored,1,28,1,✅ Normal,Looks normal to me
+2024-01-15 09:25:00,INFO,Scheduled backup completed successfully,1,39,1,✅ Normal,Looks normal to me
+2024-01-15 09:30:15,WARNING,Unusual traffic pattern detected from 10.0.0.50,2,47,1,✅ Normal,Looks normal to me
+2024-01-15 09:35:22,ERROR,Authentication failure for user: admin from 203.0.113.1,3,55,1,✅ Normal,Looks normal to me
+2024-01-15 09:35:23,ERROR,Multiple failed login attempts detected,3,39,1,✅ Normal,Looks normal to me
+2024-01-15 09:40:10,INFO,System health check passed,1,26,1,✅ Normal,Looks normal to me
+2024-01-15 09:45:30,WARNING,CPU usage spike: 95% for 2 minutes,2,34,1,✅ Normal,Looks normal to me
+2024-01-15 09:50:00,INFO,Load balancer redistributed traffic,1,35,1,✅ Normal,Looks normal to me
+2024-01-15 09:55:15,ERROR,Unexpected exception in payment processing module,3,49,1,✅ Normal,Looks normal to me
+2024-01-15 10:00:00,INFO,"Memory leak detected in user session handler: 2.1GB allocated, 1.8GB not freed",1,78,-1,❌ Anomaly,"Suspicious patterns found: user, memory, leak, session; Message length is unusual; Contains suspicious terms: user, memory, detected"
+2024-01-15 10:00:30,INFO,"Heap memory usage increased to 3.2GB, threshold exceeded",1,56,1,✅ Normal,Looks normal to me
+2024-01-15 10:01:00,WARNING,Memory allocation failed for new user sessions,2,46,1,✅ Normal,Looks normal to me
+2024-01-15 10:01:30,INFO,"Garbage collection triggered, freed 500MB",1,41,1,✅ Normal,Looks normal to me
+2024-01-15 10:02:00,ERROR,OutOfMemoryError in thread pool executor,3,40,1,✅ Normal,Looks normal to me
+2024-01-15 10:02:30,CRITICAL,System running low on available memory: 95% used,4,48,1,✅ Normal,Looks normal to me
+2024-01-15 10:03:00,INFO,Memory leak in cache manager: objects not being released,1,56,1,✅ Normal,Looks normal to me
+2024-01-15 10:03:30,ERROR,Buffer overflow detected in network packet handler,3,50,1,✅ Normal,Looks normal to me
+2024-01-15 10:04:00,CRITICAL,Stack overflow in recursive function call,4,41,1,✅ Normal,Looks normal to me
+2024-01-15 10:04:30,ERROR,Segmentation fault in native library,3,36,1,✅ Normal,Looks normal to me
+2024-01-15 10:05:00,INFO,Deadlock detected between threads T1 and T2,1,43,1,✅ Normal,Looks normal to me
+2024-01-15 10:05:30,ERROR,Null pointer exception in user authentication module,3,52,1,✅ Normal,Looks normal to me
+2024-01-15 10:06:00,WARNING,Thread pool exhausted: 200/200 threads active,2,45,1,✅ Normal,Looks normal to me
+2024-01-15 10:06:30,INFO,Connection pool full: 50/50 database connections in use,1,55,1,✅ Normal,Looks normal to me
+2024-01-15 10:07:00,ERROR,Resource leak: file handles not being closed properly,3,53,1,✅ Normal,Looks normal to me
+2024-01-15 10:07:30,CRITICAL,Disk I/O error: unable to write to primary storage,4,50,1,✅ Normal,Looks normal to me
+2024-01-15 10:08:00,ERROR,Network timeout: no response from upstream service after 60s,3,60,1,✅ Normal,Looks normal to me
+2024-01-15 10:08:30,WARNING,SSL certificate expires in 7 days,2,33,1,✅ Normal,Looks normal to me
+2024-01-15 10:09:00,INFO,Suspicious login pattern: 50 failed attempts from 192.168.1.200,1,63,-1,❌ Anomaly,"Suspicious patterns found: login, pattern, attempts, 200; Contains suspicious terms: failed"
+2024-01-15 10:09:30,ERROR,SQL injection attempt detected in user input,3,44,1,✅ Normal,Looks normal to me
+2024-01-15 10:10:00,CRITICAL,Unauthorized access to admin panel from unknown IP,4,50,-1,❌ Anomaly,"Suspicious patterns found: access, admin, unauthorized, unknown; High severity: CRITICAL"
+2024-01-15 10:10:30,ERROR,Brute force attack detected: 1000 login attempts in 5 minutes,3,61,1,✅ Normal,Looks normal to me
+2024-01-15 10:11:00,WARNING,Rate limiting activated for IP 10.0.0.100,2,41,1,✅ Normal,Looks normal to me
+2024-01-15 10:11:30,INFO,DDoS protection triggered: blocking traffic from subnet,1,55,1,✅ Normal,Looks normal to me
+2024-01-15 10:12:00,ERROR,Malware signature detected in uploaded file,3,43,1,✅ Normal,Looks normal to me
+2024-01-15 10:12:30,CRITICAL,Data breach attempt: sensitive data access without authorization,4,64,1,✅ Normal,Looks normal to me
+2024-01-15 10:13:00,INFO,Security scan completed: 5 vulnerabilities found,1,48,1,✅ Normal,Looks normal to me
+2024-01-15 10:13:30,ERROR,Cross-site scripting attempt blocked,3,36,1,✅ Normal,Looks normal to me
+2024-01-15 10:14:00,WARNING,Unusual API usage pattern: 10000 requests from single user,2,58,1,✅ Normal,Looks normal to me
+2024-01-15 10:14:30,INFO,Performance degradation: response time increased to 5.2 seconds,1,63,-1,❌ Anomaly,"Suspicious patterns found: response, increased, seconds, response time"
+2024-01-15 10:15:00,ERROR,Database query timeout: SELECT took 45 seconds,3,46,1,✅ Normal,Looks normal to me
+2024-01-15 10:15:30,WARNING,High latency detected: 2000ms average response time,2,51,-1,❌ Anomaly,"Suspicious patterns found: time, high, response, response time"
+2024-01-15 10:16:00,INFO,Cache hit ratio dropped to 15%,1,30,1,✅ Normal,Looks normal to me
+2024-01-15 10:16:30,ERROR,Service unavailable: upstream dependency not responding,3,55,1,✅ Normal,Looks normal to me
+2024-01-15 10:17:00,CRITICAL,Transaction rollback: data consistency check failed,4,51,1,✅ Normal,Looks normal to me
+2024-01-15 10:17:30,ERROR,Backup process failed: insufficient disk space,3,46,1,✅ Normal,Looks normal to me
+2024-01-15 10:18:00,WARNING,Log rotation failed: unable to compress old files,2,49,1,✅ Normal,Looks normal to me
+2024-01-15 10:18:30,INFO,Configuration reload completed successfully,1,43,1,✅ Normal,Looks normal to me
+2024-01-15 10:19:00,ERROR,Invalid configuration detected: missing required parameters,3,59,1,✅ Normal,Looks normal to me
+2024-01-15 10:19:30,WARNING,Service restart required: configuration changes pending,2,55,1,✅ Normal,Looks normal to me
+2024-01-15 10:20:00,INFO,User session cleanup: removed 500 expired sessions,1,50,1,✅ Normal,Looks normal to me
+2024-01-15 10:20:30,ERROR,Session hijacking attempt detected,3,34,1,✅ Normal,Looks normal to me
+2024-01-15 10:21:00,WARNING,Concurrent modification exception in shared cache,2,49,1,✅ Normal,Looks normal to me
+2024-01-15 10:21:30,INFO,Load balancer health check failed for node-3,1,44,1,✅ Normal,Looks normal to me
+2024-01-15 10:22:00,ERROR,Circuit breaker opened: too many failures to payment service,3,60,1,✅ Normal,Looks normal to me
+2024-01-15 10:22:30,CRITICAL,Service mesh communication failure,4,34,1,✅ Normal,Looks normal to me
+2024-01-15 10:23:00,INFO,Kubernetes pod restarted due to memory limit exceeded,1,53,1,✅ Normal,Looks normal to me
+2024-01-15 10:23:30,ERROR,Container health check failed: application not responding,3,57,-1,❌ Anomaly,"Suspicious patterns found: check failed, health, health check, responding; High severity: ERROR"
+2024-01-15 10:24:00,WARNING,Docker image vulnerability scan found 12 high-severity issues,2,61,1,✅ Normal,Looks normal to me
+2024-01-15 10:24:30,INFO,Microservice scaling triggered: adding 3 new instances,1,54,1,✅ Normal,Looks normal to me
+2024-01-15 10:25:00,ERROR,Message queue overflow: 10000 messages pending,3,46,1,✅ Normal,Looks normal to me
+2024-01-15 10:25:30,WARNING,Event stream processing lag: 30 seconds behind,2,46,1,✅ Normal,Looks normal to me
+2024-01-15 10:26:00,INFO,Batch job completed with errors: 50 out of 1000 records failed,1,62,1,✅ Normal,Looks normal to me
+2024-01-15 10:26:30,ERROR,Data pipeline failure: transformation step crashed,3,50,1,✅ Normal,Looks normal to me
+2024-01-15 10:27:00,CRITICAL,Real-time analytics service down,4,32,1,✅ Normal,Looks normal to me
+2024-01-15 10:27:30,INFO,Machine learning model prediction accuracy dropped to 65%,1,57,1,✅ Normal,Looks normal to me
+2024-01-15 10:28:00,ERROR,Feature extraction failed: invalid input data format,3,52,1,✅ Normal,Looks normal to me
+2024-01-15 10:28:30,WARNING,Model serving latency increased: 500ms per prediction,2,53,1,✅ Normal,Looks normal to me
+2024-01-15 10:29:00,INFO,A/B test results: variant B shows 15% improvement,1,49,1,✅ Normal,Looks normal to me
+2024-01-15 10:29:30,ERROR,Recommendation engine timeout: no results returned,3,50,1,✅ Normal,Looks normal to me
+2024-01-15 10:30:00,WARNING,Search index corruption detected,2,32,1,✅ Normal,Looks normal to me
+2024-01-15 10:30:30,INFO,Full-text search reindexing started,1,35,1,✅ Normal,Looks normal to me
+2024-01-15 10:31:00,ERROR,Elasticsearch cluster health: red status,3,40,1,✅ Normal,Looks normal to me
+2024-01-15 10:31:30,CRITICAL,Redis cluster failover initiated,4,32,1,✅ Normal,Looks normal to me
+2024-01-15 10:32:00,INFO,Cache warming completed: 1M entries loaded,1,42,1,✅ Normal,Looks normal to me
+2024-01-15 10:32:30,ERROR,CDN cache miss rate: 85% for static assets,3,42,1,✅ Normal,Looks normal to me
+2024-01-15 10:33:00,WARNING,Third-party API rate limit exceeded,2,35,1,✅ Normal,Looks normal to me
+2024-01-15 10:33:30,INFO,Webhook delivery failed: endpoint unreachable,1,45,1,✅ Normal,Looks normal to me
+2024-01-15 10:34:00,ERROR,Payment gateway timeout: transaction status unknown,3,51,-1,❌ Anomaly,"Suspicious patterns found: payment, transaction, status, unknown; High severity: ERROR"
+2024-01-15 10:34:30,CRITICAL,Financial reconciliation mismatch: $1000 discrepancy,4,52,1,✅ Normal,Looks normal to me
+2024-01-15 10:35:00,INFO,Fraud detection triggered: suspicious transaction pattern,1,57,1,✅ Normal,Looks normal to me
+2024-01-15 10:35:30,ERROR,Credit card validation failed: invalid checksum,3,47,1,✅ Normal,Looks normal to me
+2024-01-15 10:36:00,WARNING,Inventory sync failed: product count mismatch,2,45,1,✅ Normal,Looks normal to me
+2024-01-15 10:36:30,INFO,Order processing delayed: payment verification pending,1,54,1,✅ Normal,Looks normal to me
+2024-01-15 10:37:00,ERROR,Shipping calculation error: invalid postal code,3,47,1,✅ Normal,Looks normal to me
+2024-01-15 10:37:30,WARNING,Email delivery failed: SMTP server unreachable,2,46,1,✅ Normal,Looks normal to me
+2024-01-15 10:38:00,INFO,Push notification sent successfully to 10000 devices,1,52,1,✅ Normal,Looks normal to me
+2024-01-15 10:38:30,ERROR,SMS gateway error: message delivery failed,3,42,1,✅ Normal,Looks normal to me
+2024-01-15 10:39:00,WARNING,Social media integration timeout,2,32,1,✅ Normal,Looks normal to me
+2024-01-15 10:39:30,INFO,User preferences updated successfully,1,37,1,✅ Normal,Looks normal to me
+2024-01-15 10:40:00,ERROR,Profile image upload failed: file size too large,3,48,1,✅ Normal,Looks normal to me
+2024-01-15 10:40:30,WARNING,Password strength check failed: too weak,2,40,1,✅ Normal,Looks normal to me
+2024-01-15 10:41:00,INFO,Two-factor authentication enabled for user,1,42,1,✅ Normal,Looks normal to me
+2024-01-15 10:41:30,ERROR,OAuth token validation failed: token expired,3,44,1,✅ Normal,Looks normal to me
+2024-01-15 10:42:00,CRITICAL,GDPR compliance violation: unauthorized data access,4,51,1,✅ Normal,Looks normal to me
+2024-01-15 10:42:30,INFO,Data retention policy applied: deleted 1M old records,1,53,1,✅ Normal,Looks normal to me
+2024-01-15 10:43:00,ERROR,Audit log corruption detected,3,29,1,✅ Normal,Looks normal to me
+2024-01-15 10:43:30,WARNING,Compliance report generation failed,2,35,1,✅ Normal,Looks normal to me
+2024-01-15 10:44:00,INFO,Regular system maintenance completed,1,36,1,✅ Normal,Looks normal to me
+2024-01-15 10:44:30,ERROR,Patch installation failed: dependency conflict,3,46,1,✅ Normal,Looks normal to me
+2024-01-15 10:45:00,WARNING,Security update available: critical vulnerability,2,49,1,✅ Normal,Looks normal to me
+2024-01-15 10:45:30,INFO,System reboot scheduled for maintenance window,1,46,1,✅ Normal,Looks normal to me
