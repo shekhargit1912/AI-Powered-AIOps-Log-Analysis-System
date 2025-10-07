@@ -179,19 +179,21 @@ print(f"Detected {len(results)} anomalies")
 
 ### **Console Output**
 ```bash
-🤖 AI is learning text patterns...
-🧠 AI is analyzing patterns...
-🔍 AI discovered these suspicious patterns: memory, leak, timeout, failed, connection
+Saving analysis results...
 
-🔍 **Detected Anomalies:**
-2024-01-15 10:00:00 INFO Memory leak detected in user session handler
-2024-01-15 10:02:00 ERROR OutOfMemoryError in thread pool executor  
-2024-01-15 10:03:00 INFO Memory leak in cache manager: objects not released
+💾 Full analysis saved to 'my_log_analysis.csv'
+📊 Processed 112 log entries
+✅ Normal: 102 entries
+❌ Suspicious: 10 entries
+   Anomaly rate: 8.9%
+🚨 Suspicious entries saved to 'suspicious_logs.csv'
+   📋 10 entries need attention
+   Breakdown: {'INFO': 4, 'WARNING': 2, 'CRITICAL': 2, 'ERROR': 2}
 
-💾 Report saved to 'log_analysis_report.csv'
-📊 Total logs: 112
-✅ Normal logs: 100  
-❌ Anomaly logs: 12 (10.7% anomaly rate)
+==================================================
+Analysis complete! 🎉
+Check the CSV files for detailed results.
+==================================================
 ```
 
 ### **CSV Report Structure**
