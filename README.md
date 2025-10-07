@@ -46,8 +46,8 @@ I was frustrated with our production monitoring missing critical issues:
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/yourusername/aiops-log-analysis.git
-cd aiops-log-analysis
+git clone https://github.com/shekhargit1912/AI-Powered-AIOps-Log-Analysis-System.git
+cd AI-Powered-AIOps-Log-Analysis-System
 ```
 
 ### 2. Install Dependencies
