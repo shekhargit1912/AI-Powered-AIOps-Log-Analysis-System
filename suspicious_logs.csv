@@ -1,0 +1,11 @@
+timestamp,level,message,status,explanation
+2024-01-15 09:16:01,WARNING,High memory usage detected: 85%,❌ Anomaly,"Suspicious patterns found: memory, usage, high, 85; Contains suspicious terms: memory; Contains performance metrics"
+2024-01-15 09:17:45,INFO,API connection restored,❌ Anomaly,"Suspicious patterns found: connection, api, restored; Message length is unusual"
+2024-01-15 09:22:30,CRITICAL,Database connection lost - attempting reconnection,❌ Anomaly,"Suspicious patterns found: connection, database, database connection, reconnection; High severity: CRITICAL"
+2024-01-15 10:00:00,INFO,"Memory leak detected in user session handler: 2.1GB allocated, 1.8GB not freed",❌ Anomaly,"Suspicious patterns found: user, memory, leak, session; Message length is unusual; Contains suspicious terms: user, memory, detected"
+2024-01-15 10:09:00,INFO,Suspicious login pattern: 50 failed attempts from 192.168.1.200,❌ Anomaly,"Suspicious patterns found: login, pattern, attempts, 200; Contains suspicious terms: failed"
+2024-01-15 10:10:00,CRITICAL,Unauthorized access to admin panel from unknown IP,❌ Anomaly,"Suspicious patterns found: access, admin, unauthorized, unknown; High severity: CRITICAL"
+2024-01-15 10:14:30,INFO,Performance degradation: response time increased to 5.2 seconds,❌ Anomaly,"Suspicious patterns found: response, increased, seconds, response time"
+2024-01-15 10:15:30,WARNING,High latency detected: 2000ms average response time,❌ Anomaly,"Suspicious patterns found: time, high, response, response time"
+2024-01-15 10:23:30,ERROR,Container health check failed: application not responding,❌ Anomaly,"Suspicious patterns found: check failed, health, health check, responding; High severity: ERROR"
+2024-01-15 10:34:00,ERROR,Payment gateway timeout: transaction status unknown,❌ Anomaly,"Suspicious patterns found: payment, transaction, status, unknown; High severity: ERROR"
