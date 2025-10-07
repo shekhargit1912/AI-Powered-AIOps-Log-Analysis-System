@@ -280,18 +280,12 @@ We welcome contributions! Here's how to get started:
 - Documentation improvements
 
 
-## 📞 Connect With Me
+##  Connect With Me
 
 - **🔗 LinkedIn**: [https://www.linkedin.com/in/shekhar-chaugule/]
 - **📝 Medium** : [My technical articles on log analysis and AIOps] [https://medium.com/@shekharchaugule19]
 - **📧 Email**: [shekhartc123@gmail.com]
 - **🐛 Issues**: Found a bug or have suggestions? Open an issue!
-
-**Always happy to discuss:**
-- AIOps implementation challenges
-- Machine learning for operations
-- Log analysis best practices
-- Career advice in DevOps/SRE
 
 
 ## 🌟 **Star This Project!**
