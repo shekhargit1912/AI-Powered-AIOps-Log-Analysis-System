@@ -70,8 +70,8 @@ aiops-log-analysis/
 │   └── config.json                   # Configuration settings
 ├── 📊 Data & Results
 │   ├── sample_logs.txt               # Realistic test data with memory leaks
-│   ├── log_analysis_report.csv       # Complete analysis output
-│   └── anomaly_results.csv          # Legacy anomaly-only results
+│   ├── my_log_analysis.csv       # Complete analysis output
+│   └── suspicious_logs..csv          # Legacy anomaly-only results
 ├── 📚 Documentation
 │   ├── GitHub_README.md              # GitHub-specific documentation
 └── 🧹 Development
