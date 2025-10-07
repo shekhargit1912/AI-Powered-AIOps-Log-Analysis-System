@@ -1,0 +1,14 @@
+{
+    "log_file_path": "system_logs.txt",
+    "contamination": 0.05,
+    "level_mapping": {
+        "DEBUG": 0,
+        "INFO": 1,
+        "WARNING": 2,
+        "ERROR": 3,
+        "CRITICAL": 4,
+        "FATAL": 5
+    },
+    "time_window_minutes": 60,
+    "min_samples": 3
+}
